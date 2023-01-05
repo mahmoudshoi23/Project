@@ -1,0 +1,154 @@
+body {
+  background-color: #47b7e763;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  max-height: fit-content;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: #47b7e7;
+  border-radius: 15px;
+
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #3982b8;
+}
+
+.active {
+  background-color: #10283c;
+}
+
+#tit {
+  font-size: xx-large;
+  color: #122c42;
+}
+
+#tie {
+  font-size: xx-large;
+  color: #122c42;
+
+}
+
+#pic {
+  border-radius: 25px;
+  float: right;
+  margin-top: 20px;
+}
+
+#infam {
+  border-radius: 25px;
+  float: right;
+  margin-top: 5px;
+
+}
+
+#feno {
+  font-size: medium;
+  margin: auto;
+  background-color: #aacbe7;
+  padding-left: 25px;
+  width: 50%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 25px rgba(11, 100, 116, 0.61);
+
+  margin-left: 10px;
+  /* width: 75%;
+    background-color: #83f28ec1;
+    color:#036f2b ;
+    margin: auto;
+    padding: 10px;
+    padding-left: 51px;
+    padding-right: 51px;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.073);
+    height: 1500px;
+*/
+}
+
+#felo {
+  font-size: medium;
+  margin: auto;
+  background-color: #aacbe7;
+  padding-left: 25px;
+  width: 50%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 25px rgba(11, 100, 116, 0.61);
+
+  margin-left: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 12.5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  height: 12.5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#foot {
+  background-color: #194051cc;
+  width: 50%;
+  height: 250pxx;
+  border-radius: 25px;
+  margin-left: 12px;
+  /*border-right: 25px;*/
+}
+
+#vid {
+  border-radius: 25px;
+  margin-left: 12px;
+}
+
+#io {
+  border-radius: 25px;
+}
+
+#co {
+  color: white;
+  margin-left: 25%;
+}

@@ -1,0 +1,95 @@
+body {
+  background-color: #47b7e763;
+  font-size: large;
+}
+
+#nav {
+  list-style-type: none;
+  margin: auto;
+  max-height: fit-content;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: #47b7e7;
+  border-radius: 15px;
+
+}
+
+.navli {
+  float: left;
+  border-right: 1px solid #bbb;
+  font-size: medium;
+ 
+
+}
+
+.navli:last-child {
+  border-right: none;
+}
+
+.navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navli a:hover:not(.active) {
+  background-color: #3982b8;
+}
+
+.active {
+  background-color: #10283c;
+}
+
+#tit {
+  font-size: xx-large;
+  color: #122c42;
+  margin-left: 2%;
+}
+
+#shit {
+  color: black;
+  background-color: aliceblue;
+}
+
+.sI {
+  font-size: xx-large;
+  color: #122c42;
+  margin-left: 2%;
+}
+
+#feno {
+  font-size: medium;
+  margin-left: 25px;
+  background-color: #aacbe7;
+  padding-left: 25px;
+  width: 40%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 25px rgba(11, 100, 116, 0.61);
+}
+
+#fenopic {
+  border-radius: 25px;
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 20%;
+}
+
+#sII {
+  font-size: larger;
+  margin: auto;
+  background-color: #aacbe7;
+  padding-left: 25px;
+  width: 40%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 25px rgba(11, 100, 116, 0.61);
+  margin-left: 10px;
+
+}
+
+#end {
+  float: 25%;
+  margin-bottom: 25px;
+
+}
